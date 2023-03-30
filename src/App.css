@@ -1,4 +1,10 @@
-.App {
+@font-face {
+  font-family: "Segoe UI";   /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./fonts/Segoe\ UI/Segoe UI.ttf") format("truetype");
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

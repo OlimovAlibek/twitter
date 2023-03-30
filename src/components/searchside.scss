@@ -1,0 +1,93 @@
+.searchside {
+    position: fixed;
+    right: 0;
+    top: 0;
+    border-left: 1px solid #E5E5E5;
+    padding: 20px;
+    .trendside {
+        padding: 20px 15px 30px 15px;
+        width: 373px;
+            height: 402px;
+            background: #F7F9F9;
+            margin-top: 20px;
+border-radius: 10px;
+h6 {
+    font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+/* identical to box height, or 18px */
+
+
+color: #1DA1F2;
+}
+    };
+    input {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+
+
+color: #5C6C79;
+        width: 373px;
+        height: 55px;
+        border-radius: 31px;
+        background: #EFF3F4;
+        padding: 15px;
+        border: none;
+        
+    }
+    .div1, .cardd {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h2 {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+        span {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #393B41;
+
+            opacity: 0.6;
+        }
+        h3 {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+        }
+        p {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+
+            color: #393B41;
+
+            opacity: 0.6;
+        }
+    }
+}
