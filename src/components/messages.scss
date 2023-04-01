@@ -1,0 +1,62 @@
+.messages {
+    position: absolute;
+    left: 270px;
+    top: 0;
+    width: 655px;
+    padding: 20px;
+    .messagetop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+            font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+        }
+        img {
+            margin-left: 10px;
+        }
+        
+    }
+    h3 {
+        margin-top: 30px;
+        font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 32px;
+/* identical to box height */
+
+
+color: #000000;
+    }
+    p{
+        margin-top: 20px;
+        font-family: 'Segoe UI';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+    }
+    button {
+        width: 200px;
+height: 55px;
+left: 155px;
+top: 577px;
+
+background: #1D9BF0;
+border-radius: 27.5px;
+border: none;
+color: white;
+    }
+}

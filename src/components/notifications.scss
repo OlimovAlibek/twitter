@@ -1,0 +1,65 @@
+.notifications {
+    position: absolute;
+    left: 270px;
+    top: 0px;
+    width: 655px;
+    height: 900px;
+    padding: 20px;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 32px;
+            /* identical to box height */
+
+
+            color: #000000;
+        }
+    }
+
+    .buttons {
+        margin-top: 30px;
+        border-bottom: 1px solid #E5E5E5;
+        
+    }
+
+    button {
+        height: 40px;
+        background-color: white;
+        width: 205px;
+        border: none;
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        /* identical to box height */
+        border-right: 1px solid #E5E5E5;
+
+
+        color: #000000;
+    }
+    .below {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+         padding-top: 15px;
+         font-family: 'Segoe UI';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            /* identical to box height */
+
+
+            color: #000000;
+            margin-left: 15px;
+        }
+    }
+}

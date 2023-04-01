@@ -1,14 +1,14 @@
 
 import logo from '../images/twitterlogo.png';
 import './home.scss';
-import home from '../images/home.png'
-import explore from '../images/explore.png'
-import notifications from '../images/notification.png'
-import messages from '../images/messages.png'
-import bookmarks from '../images/bookmarks.png'
-import lists from '../images/lists.png'
-import profile from '../images/profileoutline.png'
-import more from '../images/more.png'
+import home from '../images/home.png';
+import explore from '../images/explore.png';
+import notifications from '../images/notification.png';
+import messages from '../images/messages.png';
+import bookmarks from '../images/bookmarks.png';
+import lists from '../images/lists.png';
+import profile from '../images/profileoutline.png';
+import more from '../images/more.png';
 import { NavLink } from 'react-router-dom';
 
 
@@ -18,10 +18,15 @@ import { NavLink } from 'react-router-dom';
 
 
 
+
+
 function ColorSchemesExample() {
+
+
+
   return (
     <>
-      <div className='leftside' >
+      <div className='leftside'>
           <img src={logo} alt="twitter"></img>
           <NavLink className='text-link' to={'/'}>
  <div className='column'>
@@ -57,16 +62,17 @@ function ColorSchemesExample() {
  <div className='column'>
           <img src={profile} alt="home"></img>
           <span>Profile</span>
-          </div></NavLink>
+          </div></NavLink>     
           <NavLink className='text-link' to={'/more'}>
  <div className='column'>
           <img src={more} alt="home"></img>
           <span>More</span>
           </div></NavLink>
           <button className='btn'>Tweet</button>
+          
       </div>
 
-
+    
     
     </>
   );

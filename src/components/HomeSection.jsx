@@ -6,13 +6,26 @@ import profile2 from '../images/profile2.png'
 import profile3 from '../images/profile3.png'
 import frame1 from '../images/frame1.png'
 import frame2 from '../images/frame2.png'
-import dots from '../images/dots.png'
+import dots from '../images/dots.png';
 
-const HomeSection = () => {
+
+import { auth } from './firebase';
+import { Link, useNavigate } from 'react-router-dom';
+
+const HomeSection = (props) => {
+
+  const history = useNavigate();
+  const handlelogout = async () => {
+    await auth.signOut();
+    history.push('/login');
+  }
+
+
   return (
     <div className='centerhome'>
     <div className='hometop'>
       <h1>Home</h1>
+    {props.user? <button onClick={handlelogout}>Log Out</button> : <Link to='/login'>Login</Link>}
     </div>
     <div className='myprofile'>
       <img src={profilepic} alt='qwerty'></img>
@@ -57,6 +70,9 @@ const HomeSection = () => {
       <img className='frames' src={frame2}></img>
       </div>
     </div>
+
+    
+    
 
 
     </div>

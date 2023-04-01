@@ -8,6 +8,8 @@
     left: 270px;
     top: 0px;
     .hometop {
+        display: flex;
+        justify-content: space-between;
         position: fixed;
         padding: 20px;
         padding-bottom: 5px;
@@ -15,6 +17,21 @@
         width: 655px;
         border-bottom: 1px solid #E5E5E5;
         z-index: 1;
+        button {
+            border-radius: 10px;
+            background-color: #1DA1F2;
+            color: white;
+            border: none;    
+        }
+    
+        button:hover {
+            border-radius: 10px;
+            coloR:#1DA1F2;
+            background-color: white;
+            border: none;
+            border: 3px solid #1DA1F2;
+    
+        }
         h1 {
             font-family: 'Segoe UI';
             font-style: normal;
